@@ -1,0 +1,70 @@
+/*---------------------------------
+
+---- Margus David
+---- created: 01.02.2014
+---- oDesk job - Custom PHP survey application
+---- file: stylesheet
+
+---------------------------------*/
+
+/* global */
+html, body { margin: 0px; padding: 0px; width: 100%; height: 100%; font-family: Arial, sans-serif; font-weight: normal; color: #3e3d3d; }
+a { text-decoration: none; font-family: Arial, sans-serif; border: none; color: #3e3d3d; }
+h1 { font-size: 5em; }
+h2 { font-size: 4em; }
+h3 { font-size: 3em; }
+h4 { font-size: 2em; }
+h5 { font-size: 1em; }
+ul { padding: 0px; }
+li { list-style: none; }
+label { font-weight: normal; }
+p { margin: 0px; padding: 0px; }
+
+.km-view { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; text-align: center; background-color: white; }
+.km-view input[type=button]#go-next { position: fixed; bottom: 20px; right: 20px; }
+.km-view table input[type=radio] { width: 20px; height: 20px; }
+.km-view error { font-style: Italic; font-size: 2em; color: red; }
+
+.km-loader { position: fixed; top: 0px; left: 0px; padding-top: 15%; width: 100%; height: 100%; text-align: center; background-color: rgba(255, 255, 255, 0.8); z-index: 99999; }
+
+/* home */
+#page-home .km-content { padding: 10%; }
+
+/* start page */
+#page-start .km-content { padding: 10%; }
+#page-start .km-content input[type=button] { margin-top: 50px; }
+
+/* gender page */
+#page-gender .km-content { padding: 10%; }
+#page-gender .km-content ul { margin-top: 50px; }
+#page-gender .km-content ul li input[type=radio] { margin-right: 20px; }
+#page-gender .km-content ul li label { line-height: 30px; font-size: 1.5em; }
+
+/* description page for first questions page */
+#page-first-description .km-content { padding: 10%; font-size: 1.5em; }
+
+/* first questions page */
+#page-first .km-content { padding: 5%; }
+#page-first .km-content label { font-size: 1.5em; font-weight: bold; }
+#page-first .km-content table th, #page-first .km-content table td { text-align: center; vertical-align: center; }
+
+/* description page for second questions page */
+#page-second-description .km-content { padding: 10%; font-size: 1.5em; }
+
+/* second questions page */
+#page-second .km-content { padding: 5%; }
+#page-second .km-content label { font-size: 1.5em; font-weight: bold; }
+#page-second .km-content table th, #page-second .km-content table td { text-align: center; vertical-align: center; }
+
+/* result page */
+#page-result .km-content { padding: 5%; }
+#page-result .km-content .result-section img { margin: 1%; max-width: 45%; max-height: 50%; }
+
+/* contact page */
+#page-contact .km-content { padding: 5%; }
+#page-contact .km-content input[type=text] { margin: 3% 1%; width: 40%; display: inline-block; }
+#page-contact .km-content input[type=text]#email { margin-right: 10%; }
+#page-contact .km-content label { width: 7%; }
+
+/* complete page */
+#page-last .km-content { padding: 10%; }
